@@ -1,1 +1,1 @@
-# Concussion-Care
+# Concussion Care
