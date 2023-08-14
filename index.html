@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Concussion Care</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+    
+<div id = "popupText"></div>
+    
+    
+    <header>
+        <h2 class="name"> Concussion Care </h2>
+        <ul>
+            <li class="awareness"><a href="#awarenessLink">Concussion Awareness</a></li>
+            <li class="use"><a href="#useLink">Use The Program</a></li>
+            <li class="about"><a href="#aboutSectionLink">About Us</a></li>
+            <li><button class = "button" onclick="copySiteLink()">Share This Site</button></li>
+        </ul>
+    </header>
+    
+    
+    <div class="white-space"></div>
+    <main>
+    
+        
+       
+          <h1 class = "grid1" id = "awarenessLink">Welcome To Concussion Care</h1>
+          <div class = "welcome">
+          <h3 class = "grid2">Rebuilding <span style = "color: red">Strength</span>, Renewing <span style = "color: #FFCC00">Minds</span>, Empowering <span style = "color: green">Recovery</span>.</h3>
+           
+          
+          <div class="white-space"></div>
+        </div>
+
+        
+        <div class="split-layout">
+            <div class="page">
+                <div class="content">
+                    <div class="concussion-info">
+                        <h2 style="margin-bottom: 0.75em">What Are Concussions?</h2>
+                        <p style="margin-bottom: 2em">A concussion is a type of mild traumatic brain injury (TBI) that occurs when the brain
+                            experiences a sudden, rapid movement within the skull, often due to a blow, jolt, or impact
+                            to
+                            the head or body. This abrupt movement can disrupt normal brain function temporarily.
+                            Concussions are common, particularly in activities such as sports, falls, or vehicle
+                            accidents.</p>
+                        <h2 style="margin-bottom: 0.75em">How Do I Use This Website?</h2>
+                        <p>THis website is made to help quide you through the seven step recovery process of a concussion. Each of these seven steps is made to help you ease back into regular life whether you are a student or worker. Along with a short description, each step has a list of things that you can and can't do. These are here as a suggestion rather than a rule as cocnussions are different for everyone. Either way we recomment following these as it will minimize recovery time. To ensure you have the best recovery each of these steps is designed to take at least 24 hours. Once you have finished with one step, do the quize on the right to see if you are ready for the next one.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="page">
+                <div class="content">
+                    <div class="how-to">
+                        <h2>Symptoms of Concussion</h2>
+                        <ul>
+                            <li>Altered Mental State: Individuals with a concussion may experience temporary confusion,
+                                disorientation, or a feeling of being dazed. They might have trouble concentrating,
+                                memory
+                                problems, or difficulty processing information.</li>
+                            <li>Physical Symptoms: Common physical symptoms include headache, dizziness, nausea,
+                                vomiting,
+                                blurred vision, sensitivity to light or noise, and balance problems. Some individuals
+                                may
+                                also report a "pressure" sensation in the head.</li>
+                            <li>Emotional and Behavioral Changes: Concussions can lead to emotional disturbances such as
+                                irritability, mood swings, anxiety, depression, and changes in sleep patterns (insomnia
+                                or
+                                excessive sleepiness).</li>
+                            <li>Loss of Consciousness: Although loss of consciousness is not always present in
+                                concussions,
+                                it can occur in some cases, even if only for a brief period.</li>
+                            <li>Amnesia: Temporary memory loss, particularly regarding the events immediately before or
+                                after the injury (retrograde and anterograde amnesia, respectively), is a common feature
+                                of
+                                concussions.</li>
+                        </ul>
+                        <div id = "useLink"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="white-space"></div>
+        
+
+
+
+
+
+
+      
+        <section class="tracker-section">
+          <div class="stage-info">
+            <h2 id="stage-number"></h2>
+            </br>
+            <h3 id="stage-information"></h3>
+          </div>
+
+          <div class="stage-do-dont">
+            <div class="stage-ok">
+              <h3 class="stage-ok-title">You CAN do:</h3>
+              <h4 id="stage-ok-list"></h4>
+            </div>
+  
+            <div class="stage-no">
+              <h3 class="stage-no-title">You CANNOT do:</h3>
+              <h4 id="stage-no-list"></h4>
+            </div>
+          </div>
+            
+          <div class="form-container">
+            <div id="stage-form"></div>
+
+            <div class="submit-container">
+              <button onclick="resultChecker()" id="submit-button">Submit</button>
+              <div id="print-result"></div>
+            </div>
+          </div>
+
+        </section>
+
+    </main>
+
+        <div class="aboutSection" id="aboutSectionLink">
+            <h1>About Us</h1>
+            </br>
+            <p class="aboutSectionText">Based in metro Vancouver, we are a dedicated group of students on a mission to promote understanding and
+                awareness of concussions within our community and beyond. Committed to making a meaningful impact, we've
+                come together to explore the intricate world of concussions, their effects, prevention, and the
+                importance of early intervention.</p>
+
+            
+
+
+            </br></br></br>
+        
+          <div class="linkedin-container">
+            <a class = "logo" href = "https://www.linkedin.com/in/simonduke06/" target="_blank">
+            <img src = "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" width = 20px> 
+            </a> Simon            
+            
+            <a class = "logo" href = "https://www.linkedin.com/in/jeffery0612lee/" target="_blank">
+            <img src = "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" width = 20px> 
+            </a> Jeffery            
+
+            <a class = "logo" href = "https://www.linkedin.com/in/daniel-wang-vancouver/" target="_blank">
+            <img src = "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" width = 20px> 
+            </a> Daniel            
+            
+            <a class = "logo" href = "https://www.linkedin.com/in/harry-zhang-vancouver/" target="_blank">
+            <img src = "https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" width = 20px> 
+            </a> Harry
+          </div>
+            
+
+            
+           
+            <div class="white-space"></div>
+            
+            <p class="aboutSectionText">Learn more about what to do if you think you may have a concussion <a href = "https://www.ontario.ca/page/rowans-law-concussion-awareness-resources">here</a>. This site is not ACTUAL medical advice so please don't use if you actually have a concussion</p>
+            
+            
+        </div>
+
+
+
+  
+</body>
+
+<script src="script.js"></script>
+
+</html>

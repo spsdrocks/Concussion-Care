@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: "Arial";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    
+}
+
+body {
+    background-color: #ffffff;
+}
+
+main {
+    width: 90%;
+    margin: 3em auto auto auto;
+}
+
+
+/* Corner pop-up */
+
+#popupText {
+
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background-color: #ff7070;
+    opacity: 0.9;
+    padding: 0.5em 0.5em;
+    display: none;
+    animation: fadeOut ease 5s;
+   
+    
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity:0.9;
+  }
+  50% {
+    opacity:0.9;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+
+
+/* About Section */
+
+.aboutSectionText {
+
+    width: 65%;
+    text-align: left;
+    color: #525252;
+    line-height: 1.25;
+    margin: 0 0 0 17%;
+}
+
+.aboutSection {
+    padding: 2%;
+    background-color: #dbfeff;
+    vertical-align: center;
+    width: 100vw;
+    
+}
+
+.linkedin-container {
+  margin: 0 0 0 35%;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:visited { 
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: none; 
+}
+
+
+a:active {
+    text-decoration: none; 
+}
+
+.logo {
+    padding-left: 50px;
+    
+}
+
+
+
+
+
+
+
+
+/* Welcome Section */
+
+
+.grid1 {
+  font-size: 4em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.grid2 {
+  font-size: 1.7em;
+  font-weight: 200;
+  text-align: center;
+}
+
+
+
+/* Header Stuff */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5em 2em;
+    box-shadow: 0 0.1em 0.8em #c7c7c7;
+    background-color: #dbfeff;
+    position: fixed;
+    width: 100vw;
+}
+
+header h2 {
+    text-align: center;
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    display: inline-block;
+    color: #000000;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    list-style: none;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #525252;
+    transition: all 0.2s ease 0s;
+}
+
+
+
+header a:hover {
+    color: #7e9fec;
+}
+
+
+.button {
+  background-color: #6cd57d;
+  border: none;
+  color: white;
+  padding: 15px 26px;
+  text-align: bottom;
+  text-decoration: none;
+  margin: -10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+
+    color: #7e9fec;
+    transition: all 0.2s ease 0s;
+    
+}
+
+
+
+.white-space {
+    width: 100vw;
+    height: 4.2em;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
+
+.info-section {
+    display: flex;
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+.tracker-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: rgba(126, 159, 263, 0.2);
+  padding: 5em 0 5em 0;
+  margin: 0 0 4.2em 0;
+    border-style: solid;
+}
+
+.stage-info {
+  grid-column: 1 / span 2;
+}
+
+.stage-info h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  text-align: center;
+  margin: 1em 0 0 0;
+}
+
+.stage-info h3 {
+  font-size: 1em;
+  font-weight: 200;
+  text-align: center;
+}
+
+.form-container {
+  margin: 0 0 2em 2em;
+}
+
+.stage-do-dont {
+  display: flex;
+  align-items: middle;
+  justify-content: space-evenly;
+}
+
+.stage-do-dont h3 {
+  font-size: 2.3em;
+  margin: 0 0 1em 0;
+  font-weight: 200;
+}
+
+.stage-do-dont li {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-left: 1em;
+}
+
+.stage-ok li {
+  color: green;
+}
+
+.stage-no li {
+  color: red;
+}
+
+.select-box {
+  transform: translate(47em, -1.4em);
+}
+
+
+#submit-button {
+    
+  background-color: #78d7dd;
+  border: none;
+  color: black;
+  padding: 15px 26px;
+  text-align: bottom;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer; 
+  opacity: 1;
+    
+}
+
+#submit-button:hover {
+
+    opacity: 0.6;
+    transition: all 0.2s ease 0s;
+    
+}
+
+
+
+/* --------------------------------------------------------------------------------------- */
+
+/* column code */
+.split-layout {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+}
+
+.page {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10;
+    padding: 40px;
+}
+
+.page:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.page:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.content {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.split-layout h2 {
+  font-size: 2em;
+  margin: 0 0 1.5em 0;
+  font-weight: 200;
+}
+
+.how-to li {
+  margin-bottom: 0.8em;
+}
+
+
